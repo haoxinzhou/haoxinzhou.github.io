@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "Incoming Assistant Professor of Physics, UMass Amherst"
+subtitle: "Incoming Assistant Professor of Physics, University of Massachusetts Amherst"
 
 profile:
   align: right
