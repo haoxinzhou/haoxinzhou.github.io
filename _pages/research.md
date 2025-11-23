@@ -4,7 +4,6 @@ title: Research
 permalink: /research/
 nav: true
 nav_order: 3
-description: Research directions in quantum materials, superconducting circuits, and quantum information science.
 ---
 
 My group investigates quantum phenomena in electronic materials and engineered quantum devices, bringing together ideas from condensed matter physics, superconducting circuits, and quantum information science. Our work spans three interconnected directions:
@@ -49,7 +48,7 @@ These devices aim to achieve quantum functionalities that arise from the physics
 ### **Electron Quantum Optics**
 
 <p align="center">
-  <img src="/assets/img/research/eqo.jpg" width="75%">
+  <img src="/assets/img/research/eqo.png" width="75%">
 </p>
 
 We are developing a platform in which single electrons, rather than photons, serve as the flying quanta that mediate coherent interactions. Using on-demand electron sources, engineered one-dimensional waveguides, and quantum Hall edge channels, we aim to build the electronic analog of waveguide QED.
