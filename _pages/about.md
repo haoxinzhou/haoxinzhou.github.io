@@ -9,8 +9,10 @@ profile:
   image: prof_pic.jpg
   image_circular: true
   more_info: >
+    <p>Postdoctoral Researcher</p>
+    <p>UC Berkeley</p>
     <p>Incoming Assistant Professor of Physics</p>
-    <p>University of Massachusetts Amherst</p>
+    <p>Umass Amherst</p>
     <p>Email: haoxin@berkeley.edu</p>
     
 
