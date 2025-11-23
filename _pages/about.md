@@ -10,8 +10,9 @@ profile:
   image_circular: true
   more_info: >
     <p>Email: haoxin@berkeley.edu</p>
-    <p>[Google Scholar](https://scholar.google.com/citations?user=whU2OAkAAAAJ&hl=en)
-    <p>[LinkedIn](https://scholar.google.com/citations?user=whU2OAkAAAAJ&hl=en)
+    <p><a href="https://scholar.google.com/citations?user=whU2OAkAAAAJ&hl=en" target="_blank">Google Scholar</a></p>
+    <p><a href="https://www.linkedin.com/in/haoxin-zhou/" target="_blank">LinkedIn</a></p>
+
     
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
