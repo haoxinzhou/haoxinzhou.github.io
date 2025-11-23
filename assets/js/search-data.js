@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-research",
           title: "Research",
-          description: "Research directions in quantum materials, superconducting circuits, and quantum information science.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
