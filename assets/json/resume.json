@@ -41,6 +41,14 @@
       "studyType": "PhD",
       "startDate": "Sep 2015",
       "endDate": "Aug 2021"
+    },
+        {
+      "institution": "University of Science and Technology of China",
+      "location": "Hefei, China",
+      "area": "Physics",
+      "studyType": "BS",
+      "startDate": "Sep 2011",
+      "endDate": "Jun 2015"
     }
   ],
   "awards": [
