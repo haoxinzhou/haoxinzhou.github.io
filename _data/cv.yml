@@ -1,3 +1,13 @@
+- title: Experience
+  type: time_table
+  contents:
+    - title: Postdoctoral Scholar
+      institution: University of California, Berkeley and Lawrence Berkeley National Laboratory
+      year: Feb 2023 - present
+    - title: IQIM Postdoctoral Scholar
+      institution: California Institute of Technology, Pasadena, California, US
+      year: Sep 2021 - Jan 2023
+
 - title: Education
   type: time_table
   contents:
@@ -9,16 +19,6 @@
     - title: BS in Physics
       institution: University of Science and Technology of China
       year: 2015
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Postdoctoral Scholar
-      institution: University of California, Berkeley and Lawrence Berkeley National Laboratory
-      year: Feb 2023 - present
-    - title: IQIM Postdoctoral Scholar
-      institution: California Institute of Technology, Pasadena, California, US
-      year: Sep 2021 - Jan 2023
 
 - title: Honors and Awards
   type: time_table
