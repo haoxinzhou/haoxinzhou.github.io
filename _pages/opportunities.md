@@ -7,12 +7,41 @@ nav: true
 nav_order: 5
 ---
 
-We are actively recruiting Fall 2026 Ph.D. students and postdoctoral researchers to join my group at UMass.
+# Opportunities
 
-### Graduate Students ###
-Prospective graduate students should apply to [Umass Amherst's Physics PhD pragram](https://www.umass.edu/physics/graduate/prospective-students-letter). Feel free to contact me at haoxin@berkeley.edu with you CV and a brief introduction of your research experience/interests.
-### Postdocs ###
-Interested candidiates should contact me at haoxin@berkeley.edu with you CV and a brief introduction of your research experience/interests.
+We are actively recruiting **Ph.D. students** (starting Fall 2026) and **postdoctoral researchers** to join my group at UMass Amherst.
+
+---
+
+## Graduate Students
+
+Prospective graduate students should apply to the  
+[UMass Amherst Physics Ph.D. Program](https://www.umass.edu/physics/graduate/prospective-students-letter).
+
+If you are interested in joining the group, feel free to contact me at **haoxin@berkeley.edu** with:
+
+- your **CV**, and  
+- a brief introduction to your research experience and interests.
+
+---
+
+## Postdoctoral Researchers
+
+Interested candidates should contact me at **haoxin@berkeley.edu** with:
+
+- your **CV**, and  
+- a short summary of your research background and interests.
+
+---
+
+If you'd like, I can also help you add:
+
+- a styled **“Join Us”** button  
+- section icons  
+- a sidebar banner  
+- links to UMass HR postdoc job postings  
+- a template email for prospective students  
+
 
 
 
