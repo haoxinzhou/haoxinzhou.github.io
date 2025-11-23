@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "cQED Quantum Sensing"
-importance: 2
+importance: 1
 category: work
 image: /assets/img/research_cqed.jpg
 ---

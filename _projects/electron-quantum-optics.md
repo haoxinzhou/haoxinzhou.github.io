@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Electron Quantum Optics"
-importance: 1
+importance: 3
 category: work
 image: /assets/img/research_eqo.jpg  # replace with your image
 ---

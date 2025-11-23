@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Quantum Devices from Novel Materials"
-importance: 3
+importance: 2
 category: work
 image: /assets/img/research_devices.jpg
 ---
