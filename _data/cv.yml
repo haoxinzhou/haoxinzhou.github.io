@@ -1,13 +1,3 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Haoxin Zhou
-    - name: Date of Birth
-      value: 24th March 1992
-    - name: Languages
-      value: English, Chinese
-
 - title: Education
   type: time_table
   contents:
