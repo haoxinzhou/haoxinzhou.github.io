@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Research
-permalink: /research/
+title: Research v2
+permalink: /research_v2/
 description: A growing collection of your cool projects.
 nav: false
 nav_order: 3
