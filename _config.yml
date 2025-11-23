@@ -6,8 +6,7 @@ title: Haoxin Zhou
 name: Haoxin Zhou
 #contact_note: >
 #  You can even add a little note about which of these is the best way to reach you if you like.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Incoming Assistant Professor of Physics, University of Massachusetts Amherst
+description: Haoxin Zhou — quantum materials, superconducting circuits, nanomechanics, and quantum information science.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

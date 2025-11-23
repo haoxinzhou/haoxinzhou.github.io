@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-We are actively recruiting **Ph.D. students** (starting Fall 2026) and **postdoctoral researchers** to join my group at UMass Amherst.
+We are actively recruiting **Ph.D. students** (starting Fall 2026) and **Postdoctoral Researchers** to join my group at UMass Amherst.
 
 ---
 

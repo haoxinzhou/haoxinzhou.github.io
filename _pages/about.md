@@ -31,7 +31,7 @@ latest_posts:
 
 <!-- I am an incoming Assistant Professor of Physics at the University of Massachusetts Amherst, where I will start my research group in Fall 2026. My work lies at the intersection of condensed matter physics and quantum information science, combining approaches from superconducting circuits, nanomechanics, and strongly correlated electron systems to probe, manipulate, and harness quantum behavior at mesoscopic and macroscopic scales. -->
 
-I am currently a Postdoctoral Researcher at UC Berkeley, working on hybrid superconducting-qubit and quantum-phononic systems. I received my Ph.D. in Physics from UC Santa Barbara (2021), where I studied strongly correlated phases in two-dimensional materials, and my B.S. from the University of Science and Technology of China (2015).
+I am currently a Postdoc at UC Berkeley, working on hybrid superconducting-qubit and quantum-phononic systems. I received my Ph.D. in Physics from UC Santa Barbara (2021), where I studied strongly correlated phases in two-dimensional materials, and my B.S. from the University of Science and Technology of China (2015).
 
 In Fall 2026, I will join the Physics Department at the University of Massachusetts Amherst as an Assistant Professor. My group’s research will lie at the intersection of condensed matter physics and quantum information science, combining approaches from superconducting circuits, nanomechanics, and strongly correlated electron systems to probe, manipulate, and harness quantum behavior at mesoscopic and macroscopic scales.
 
