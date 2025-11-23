@@ -13,8 +13,7 @@ We are actively recruiting **Ph.D. students** (starting Fall 2026) and **postdoc
 
 ### Graduate Students
 
-Prospective graduate students should apply to the  
-[UMass Amherst Physics Ph.D. Program](https://www.umass.edu/physics/graduate/prospective-students-letter).
+Prospective graduate students should apply to the [UMass Amherst Physics Ph.D. Program](https://www.umass.edu/physics/graduate/prospective-students-letter).
 
 If you are interested in joining the group, feel free to contact me at **haoxin@berkeley.edu** with:
 
