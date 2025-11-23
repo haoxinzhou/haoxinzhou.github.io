@@ -9,9 +9,12 @@ profile:
   image: prof_pic.jpg
   image_circular: true
   more_info: >
+    <p>Postdoctoral Researcher</p>
+    <p>UC Berkeley</p>
     <p>Incoming Assistant Professor of Physics</p>
-    <p>University of Massachusetts Amherst</p>
-    <p>Starting Fall 2026</p>
+    <p>Umass Amherst</p>
+    <p>Email: haoxin@berkeley.edu</p>
+    
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -29,9 +32,9 @@ latest_posts:
 
 I am an incoming Assistant Professor of Physics at the University of Massachusetts Amherst, where I will start my research group in Fall 2026. My work lies at the intersection of condensed matter physics and quantum information science, combining approaches from superconducting circuits, nanomechanics, and strongly correlated electron systems to probe, manipulate, and harness quantum behavior at mesoscopic and macroscopic scales.
 
-I am currently a postdoctoral scholar at UC Berkeley, working on hybrid superconducting-qubit and quantum-phononic systems. I received my Ph.D. in 2021 from UC Santa Barbara, where I studied strongly correlated phases in two-dimensional materials.
+I am currently a postdoc at UC Berkeley, working on hybrid superconducting-qubit and quantum-phononic systems. I received my Ph.D. in 2021 from UC Santa Barbara, where I studied strongly correlated phases in two-dimensional materials.
 
-I am actively recruiting Ph.D. students and postdoctoral researchers to join my group at UMass. Students interested in quantum materials, superconducting circuits, nanomechanics, or quantum information science are very welcome to get in touch.
+**I am actively recruiting Ph.D. students and Postdoctoral Researchers to join my group at UMass. If you are interested in quantum materials, superconducting circuits, nanomechanics, or quantum information science, I would be delighted to hear from you.**
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
