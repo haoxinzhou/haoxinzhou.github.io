@@ -415,9 +415,9 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/electron-quantum-optics/";
-            },},{id: "projects-quantum-devices-from-novel-materials",
-          title: 'Quantum Devices from Novel Materials',
-          description: "",
+            },},{id: "projects-quantum-devices",
+          title: 'Quantum Devices',
+          description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/quantum-devices/";
             },},{
