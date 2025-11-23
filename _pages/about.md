@@ -11,7 +11,8 @@ profile:
   more_info: >
     <p>Incoming Assistant Professor of Physics</p>
     <p>University of Massachusetts Amherst</p>
-    <p>Starting Fall 2026</p>
+    <p>Email: haoxin@berkeley.edu</p>
+    
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
