@@ -31,7 +31,7 @@ I am an incoming Assistant Professor of Physics at the University of Massachuset
 
 I am currently a postdoctoral scholar at UC Berkeley, working on hybrid superconducting-qubit and quantum-phononic systems. I received my Ph.D. in 2021 from UC Santa Barbara, where I studied strongly correlated phases in two-dimensional materials.
 
-I am actively recruiting Ph.D. students and postdoctoral researchers to join my group at UMass. Students interested in quantum materials, superconducting circuits, nanomechanics, or quantum information science are very welcome to get in touch.
+** I am actively recruiting Ph.D. students and postdoctoral researchers to join my group at UMass. Students interested in quantum materials, superconducting circuits, nanomechanics, or quantum information science are very welcome to get in touch. **
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
