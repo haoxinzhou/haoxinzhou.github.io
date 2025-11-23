@@ -9,11 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: true
   more_info: >
-    <p>Postdoctoral Researcher</p>
-    <p>UC Berkeley</p>
-    <p>Incoming Assistant Professor of Physics</p>
-    <p>Umass Amherst</p>
     <p>Email: haoxin@berkeley.edu</p>
+    <p>[Google Scholar](https://scholar.google.com/citations?user=whU2OAkAAAAJ&hl=en)
+    <p>[LinkedIn](https://scholar.google.com/citations?user=whU2OAkAAAAJ&hl=en)
     
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -30,7 +28,7 @@ latest_posts:
   limit: 0 # leave blank to include all the blog posts
 ---
 
-<!-- I am an incoming Assistant Professor of Physics at the University of Massachusetts Amherst, where I will start my research group in Fall 2026. My work lies at the intersection of condensed matter physics and quantum information science, combining approaches from superconducting circuits, nanomechanics, and strongly correlated electron systems to probe, manipulate, and harness quantum behavior at mesoscopic and macroscopic scales.
+<!-- I am an incoming Assistant Professor of Physics at the University of Massachusetts Amherst, where I will start my research group in Fall 2026. My work lies at the intersection of condensed matter physics and quantum information science, combining approaches from superconducting circuits, nanomechanics, and strongly correlated electron systems to probe, manipulate, and harness quantum behavior at mesoscopic and macroscopic scales. -->
 
 I am currently a Postdoctoral Researcher at UC Berkeley, working on hybrid superconducting-qubit and quantum-phononic systems. I received my Ph.D. in Physics from UC Santa Barbara (2021), where I studied strongly correlated phases in two-dimensional materials, and my B.S. from the University of Science and Technology of China (2015).
 
