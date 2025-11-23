@@ -12,7 +12,7 @@ My group investigates quantum phenomena in electronic materials and engineered q
 
 ---
 
-## **cQED Quantum Sensing of Correlated Matter**
+### **cQED Quantum Sensing of Correlated Matter**
 
 <p align="center">
   <img src="/assets/img/research/cqed.jpg" width="75%">
@@ -28,7 +28,7 @@ By coupling qubits to material excitations in the GHz regime, we reveal dynamica
 
 ---
 
-## **Quantum Devices from Novel Materials**
+### **Quantum Devices from Novel Materials**
 
 <p align="center">
   <img src="/assets/img/research/devices.jpg" width="75%">
@@ -46,7 +46,7 @@ These devices aim to achieve quantum functionalities that arise **from the physi
 
 ---
 
-## **Electron Quantum Optics**
+### **Electron Quantum Optics**
 
 <p align="center">
   <img src="/assets/img/research/eqo.jpg" width="75%">
