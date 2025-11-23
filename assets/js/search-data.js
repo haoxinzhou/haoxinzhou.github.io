@@ -412,7 +412,7 @@ ninja.data = [{
               window.location.href = "/projects/cqed-sensing/";
             },},{id: "projects-electron-quantum-optics",
           title: 'Electron Quantum Optics',
-          description: "with background image",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/electron-quantum-optics/";
             },},{id: "projects-quantum-devices",
