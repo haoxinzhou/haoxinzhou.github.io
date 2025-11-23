@@ -30,9 +30,13 @@ latest_posts:
   limit: 0 # leave blank to include all the blog posts
 ---
 
-I am an incoming Assistant Professor of Physics at the University of Massachusetts Amherst, where I will start my research group in Fall 2026. My work lies at the intersection of condensed matter physics and quantum information science, combining approaches from superconducting circuits, nanomechanics, and strongly correlated electron systems to probe, manipulate, and harness quantum behavior at mesoscopic and macroscopic scales.
+<!-- I am an incoming Assistant Professor of Physics at the University of Massachusetts Amherst, where I will start my research group in Fall 2026. My work lies at the intersection of condensed matter physics and quantum information science, combining approaches from superconducting circuits, nanomechanics, and strongly correlated electron systems to probe, manipulate, and harness quantum behavior at mesoscopic and macroscopic scales.
 
-I am currently a postdoc at UC Berkeley, working on hybrid superconducting-qubit and quantum-phononic systems. I received my Ph.D. in 2021 from UC Santa Barbara, where I studied strongly correlated phases in two-dimensional materials.
+I am currently a postdoc at UC Berkeley, working on hybrid superconducting-qubit and quantum-phononic systems. I received my Ph.D. in 2021 from UC Santa Barbara, where I studied strongly correlated phases in two-dimensional materials. -->
+
+I am a postdoctoral research at UC Berkeley, working on hybrid superconducting-qubit and quantum-phononic systems. I received my Ph.D. in 2021 from UC Santa Barbara, studying strongly correlated phases in two-dimensional materials. I received my B.S. in 2015 from the University of Science and Technology of China.
+
+In Fall 2026, I will join the Physics Department of the University of Massachusetts Amherst as an Assistant Professor. My group's research will lie at the intersection of condensed matter physics and quantum information science, combining approaches from superconducting circuits, nanomechanics, and strongly correlated electron systems to probe, manipulate, and harness quantum behavior at mesoscopic and macroscopic scales.
 
 **I am actively recruiting Ph.D. students and Postdoctoral Researchers to join my group at UMass. If you are interested in quantum materials, superconducting circuits, nanomechanics, or quantum information science, I would be delighted to hear from you.**
 
