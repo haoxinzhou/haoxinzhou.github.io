@@ -4,7 +4,7 @@ permalink: /opportunities/
 title: Opportunities
 # description: Materials for courses you taught. Replace this text with your description.
 nav: true
-nav_order: 5
+nav_order: 7
 ---
 
 We are actively recruiting **Ph.D. students** (starting Fall 2026) and **Postdoctoral Researchers** to join my group at UMass Amherst.
