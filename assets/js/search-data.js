@@ -407,7 +407,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-cqed-quantum-sensing",
           title: 'cQED quantum sensing',
-          description: "with background image",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cqed-sensing/";
             },},{id: "projects-electron-quantum-optics",
