@@ -1,0 +1,12 @@
+/* Shrink social icons on the About page */
+.about-social a {
+  font-size: 0.8rem !important;   /* adjust this value (0.7–1.0) */
+  margin: 0 6px !important;       /* tighten spacing */
+}
+
+.about-social i,
+.about-social svg {
+  font-size: 18px !important;     /* icon size */
+  width: 18px !important;
+  height: 18px !important;
+}
