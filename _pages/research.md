@@ -4,61 +4,59 @@ title: Research
 permalink: /research/
 nav: true
 nav_order: 3
-# display_categories: [work, fun]
-horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+My group investigates quantum phenomena in electronic materials and engineered quantum devices, bringing together ideas from condensed matter physics, superconducting circuits, and quantum information science. Our work spans three interconnected directions:
 
-{% else %}
 
-<!-- Display projects without categories -->
+---
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+### **cQED Quantum Sensing of Correlated Matter**
 
-  <!-- Generate cards for each project -->
+<p align="center">
+  <img src="/assets/img/research/sensing.png" width="75%">
+</p>
 
-{% if page.horizontal %}
+Superconducting qubits and resonators provide quantum-limited sensitivity to charge, flux, and mechanical motion, making them powerful probes of macroscopic quantum behavior in correlated and topological materials. We use circuit QED (cQED) techniques to study:
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+- order-parameter fluctuations near quantum phase transitions  
+- collective excitations such as plasmons, magnons, and amplitude modes  
+- microscopic mechanisms behind unconventional superconductivity  
+
+By coupling qubits to material excitations in the GHz regime, we reveal dynamical processes invisible to transport or optical probes, helping uncover how collective coherence emerges from interacting electrons.
+
+---
+
+### **Quantum Devices from Novel Materials**
+
+<p align="center">
+  <img src="/assets/img/research/devices.png" width="75%">
+</p>
+
+Quantum materials—including chiral superconductors, van der Waals heterostructures, and engineered interfaces—provide new opportunities for building next-generation quantum hardware. We design devices where material properties directly enhance coherence and functionality.
+
+Key efforts include:
+
+- symmetry- and topology-protected Josephson devices  
+- heterostructure-based quantum transducers  
+- low-loss superconducting circuits using emergent interfacial responses  
+
+These devices aim to achieve quantum functionalities that arise from the physics of the material itself, enabling scalable architectures for quantum information science.
+
+---
+
+### **Electron Quantum Optics**
+
+<p align="center">
+  <img src="/assets/img/research/eqo.png" width="75%">
+</p>
+
+We are developing a platform in which single electrons, rather than photons, serve as the flying quanta that mediate coherent interactions. Using on-demand electron sources, engineered one-dimensional waveguides, and quantum Hall edge channels, we aim to build the electronic analog of waveguide QED.
+
+This platform enables:
+
+- coherent electron–matter interactions with tunable coupling  
+- single-electron interferometry and quantum-optical control  
+- hybrid networks linking electrons, spins, and superconducting qubits  
+
+Electron quantum optics opens a path toward quantum simulation and entanglement generation using mobile, strongly interacting electronic excitations.
