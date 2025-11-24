@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Research
-permalink: /research/
-nav: true
-nav_order: 3
+title: Research_long
+permalink: /research_long/
+nav: false
+nav_order: 10
 # display_categories: [work, fun]
 horizontal: false
 ---
