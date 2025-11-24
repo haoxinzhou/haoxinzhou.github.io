@@ -17,13 +17,12 @@ My group investigates quantum phenomena in electronic materials and engineered q
   <img src="/assets/img/sensing.png" width="30%">
 </p>
 
-Superconducting qubits and resonators provide quantum-limited sensitivity to charge, flux, and mechanical motion, making them powerful probes of macroscopic quantum behavior in correlated and topological materials. We use circuit QED (cQED) techniques to study:
+Superconducting qubits and resonators provide quantum-limited sensitivity to charge, flux, and mechanical motion, making them powerful and low-energy probes of macroscopic quantum behavior in correlated and topological materials. We use circuit quantum electrodynamics techniques to study:
 
 - order-parameter fluctuations near quantum phase transitions  
-- collective excitations such as plasmons, magnons, and amplitude modes  
-- microscopic mechanisms behind unconventional superconductivity  
+- collective excitations such as plasmons, magnons, and amplitude modes
 
-By coupling qubits to material excitations in the GHz regime, we reveal dynamical processes invisible to transport or optical probes, helping uncover how collective coherence emerges from interacting electrons.
+By coupling qubits to material excitations in the GHz regime, we reveal dynamical processes invisible to transport or optical probes, uncovering how collective coherence emerges from interacting electrons.
 
 ---
 
@@ -33,13 +32,12 @@ By coupling qubits to material excitations in the GHz regime, we reveal dynamica
   <img src="/assets/img/devices.png" width="30%">
 </p>
 
-Quantum materials—including chiral superconductors, van der Waals heterostructures, and engineered interfaces—provide new opportunities for building next-generation quantum hardware. We design devices where material properties directly enhance coherence and functionality.
+Quantum materials provide new opportunities for building next-generation quantum hardware. We design devices where material properties directly enhance coherence and functionality.
 
 Key efforts include:
 
 - symmetry- and topology-protected Josephson devices  
 - heterostructure-based quantum transducers  
-- low-loss superconducting circuits using emergent interfacial responses  
 
 These devices aim to achieve quantum functionalities that arise from the physics of the material itself, enabling scalable architectures for quantum information science.
 
