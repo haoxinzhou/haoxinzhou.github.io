@@ -11,7 +11,7 @@ My group investigates quantum phenomena in electronic materials and engineered q
 
 ---
 
-### **cQED-based Quantum Sensing**
+### **Circuit QED Quantum Sensing**
 
 <p align="center">
   <img src="/assets/img/sensing.png" width="30%">
