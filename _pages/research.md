@@ -11,7 +11,7 @@ My group investigates quantum phenomena in electronic materials and engineered q
 
 ---
 
-### **cQED Quantum Sensing of Correlated Matter**
+### **cQED-based Quantum Sensing**
 
 <p align="center">
   <img src="/assets/img/sensing.png" width="30%">
