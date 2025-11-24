@@ -14,7 +14,7 @@ My group investigates quantum phenomena in electronic materials and engineered q
 ### **cQED Quantum Sensing of Correlated Matter**
 
 <p align="center">
-  <img src="/assets/img/research/cqed.jpg" width="75%">
+  <img src="/assets/img/research/cqed.png" width="75%">
 </p>
 
 Superconducting qubits and resonators provide quantum-limited sensitivity to charge, flux, and mechanical motion, making them powerful probes of macroscopic quantum behavior in correlated and topological materials. We use circuit QED (cQED) techniques to study:
@@ -30,7 +30,7 @@ By coupling qubits to material excitations in the GHz regime, we reveal dynamica
 ### **Quantum Devices from Novel Materials**
 
 <p align="center">
-  <img src="/assets/img/research/devices.jpg" width="75%">
+  <img src="/assets/img/research/devices.png" width="75%">
 </p>
 
 Quantum materials—including chiral superconductors, van der Waals heterostructures, and engineered interfaces—provide new opportunities for building next-generation quantum hardware. We design devices where material properties directly enhance coherence and functionality.
