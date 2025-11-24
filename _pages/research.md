@@ -14,7 +14,7 @@ My group investigates quantum phenomena in electronic materials and engineered q
 ### **cQED Quantum Sensing of Correlated Matter**
 
 <p align="center">
-  <img src="/assets/img/research/sensing.png" width="75%">
+  <img src="/assets/img/sensing.png" width="75%">
 </p>
 
 Superconducting qubits and resonators provide quantum-limited sensitivity to charge, flux, and mechanical motion, making them powerful probes of macroscopic quantum behavior in correlated and topological materials. We use circuit QED (cQED) techniques to study:
