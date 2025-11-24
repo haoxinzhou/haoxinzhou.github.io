@@ -405,8 +405,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-cqed-quantum-sensing",
-          title: 'cQED quantum sensing',
+          section: "News",},{id: "projects-cqed-quantum-sensing-of-correlated-matter",
+          title: 'cQED Quantum Sensing of Correlated Matter',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cqed-sensing/";
