@@ -2,7 +2,7 @@
 layout: page
 title: cQED quantum sensing
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/sensing.png
 importance: 1
 category: work
 related_publications: true
