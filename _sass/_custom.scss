@@ -1,0 +1,8 @@
+/* Make project titles on the Research page smaller */
+.projects .card-title,
+.projects .project-title,
+.projects h2,
+.projects h3 {
+  font-size: 1.3rem !important;   // tweak this value as you like
+  line-height: 1.3 !important;
+}
