@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true
   more_info: >
-    <p><strong>Email:</strong> <a href="mailto:haoxin@berkeley.edu">haoxin@berkeley.edu</a> or <a href="mailto:haoxinzhou@umass.edu">haoxin@berkeley.edu</a></p>
+    <p><strong>Email:</strong> <a href="mailto:haoxinzhou@umass.edu">haoxinzhou@umass.edu</a></p>
     <p><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=whU2OAkAAAAJ&hl=en" target="_blank">profile</a></p>
     <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/haoxin-zhou-b8b57089/" target="_blank">profile</a></p>
 
