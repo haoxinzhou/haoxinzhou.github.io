@@ -8,18 +8,29 @@ nav_order: 2
 
 <div class="lab-people">
   {% for person in site.data.people %}
-    <article class="lab-person">
-      {% if person.image %}
-        <div class="lab-person-portrait" style="--portrait-zoom: {{ person.image_zoom | default: 1 }}; --portrait-origin: {{ person.image_origin | default: '50% 50%' }};">
-          <img class="lab-person-photo" src="{{ person.image | prepend: '/assets/img/' | relative_url }}" alt="{{ person.name | escape }}" loading="lazy" width="240" height="240">
-        </div>
+  <article class="lab-person">
+    {% if person.image %}
+    <div
+      class="lab-person-portrait"
+      style="--portrait-zoom: {{ person.image_zoom | default: 1 }}; --portrait-origin: {{ person.image_origin | default: '50% 50%' }};"
+    >
+      <img
+        class="lab-person-photo"
+        src="{{ person.image | prepend: '/assets/img/' | relative_url }}"
+        alt="{{ person.name | escape }}"
+        loading="lazy"
+        width="240"
+        height="240"
+      />
+    </div>
+    {% endif %}
+    <div>
+      <p class="lab-eyebrow">{{ person.role }}</p>
+      <h2>{% if person.cv %}<a href="{{ person.cv | relative_url }}">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h2>
+      {% if person.institution %}
+      <p class="lab-person-institution">{{ person.institution }}</p>
       {% endif %}
-      <div>
-        <p class="lab-eyebrow">{{ person.role }}</p>
-        <h2>{% if person.cv %}<a href="{{ person.cv | relative_url }}">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h2>
-        {% if person.institution %}<p class="lab-person-institution">{{ person.institution }}</p>{% endif %}
-      </div>
-    </article>
+    </div>
+  </article>
   {% endfor %}
 </div>
-

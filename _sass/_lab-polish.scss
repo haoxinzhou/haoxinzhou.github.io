@@ -30,7 +30,12 @@ body {
   font-kerning: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 400;
   color: var(--global-text-color);
@@ -71,7 +76,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // Keep the fixed header inside its existing body offset.
-#navbar { line-height: 1.5; }
+#navbar {
+  line-height: 1.5;
+}
 
 // Identical weights keep the navigation width steady on every page.
 #navbar .nav-link,

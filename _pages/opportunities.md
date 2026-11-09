@@ -31,5 +31,3 @@ If you are an undergradaute student currently enrolled in UMass Amerst or nearby
 - CV
 - Transcript (if available)
 - A brief introduction to your research interests
-
-
