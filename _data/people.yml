@@ -1,11 +1,11 @@
 # Copy this entry to add a member. Use an image filename from assets/img/.
 # The public contact email is set in _data/group.yml.
-# The PI's CV link is optional for other members.
+# A profile URL is optional for each member.
 - name: Haoxin Zhou
   role: Principal investigator
   institution: UMass Amherst
   image: prof_pic.jpg
-  cv: /cv/
+  profile_url: https://www.umass.edu/physics/about/directory/haoxin-zhou
 
 - name: Ruthi Zielinski
   role: Graduate Student
