@@ -1,0 +1,41 @@
+# Copy this entry to add a member. Use an image filename from assets/img/.
+# The public contact email is set in _data/group.yml.
+# The PI's CV link is optional for other members.
+- name: Haoxin Zhou
+  role: Principal investigator
+  institution: UMass Amherst
+  image: prof_pic.jpg
+  cv: /cv/
+
+- name: Ruthi Zielinski
+  role: Graduate Student
+  institution: UMass Amherst
+  image: ruthi-zielinski.jpg
+  image_zoom: 1.15
+  image_origin: "50% 0%"
+
+- name: Shemanto Saha
+  role: Graduate Student
+  institution: UMass Amherst
+  image: shemanto-saha.jpg
+  image_zoom: 1.85
+  image_origin: "60% 49%"
+
+- name: Raihan Ahmed
+  role: Undergraduate Student
+  institution: UMass Amherst
+  image: raihan-ahmed.jpg
+  image_zoom: 2.5
+  image_origin: "46% 33%"
+
+- name: Sharmila Mustari
+  role: Undergraduate Student
+  institution: Mount Holyoke College
+  image: sharmila-mustari.jpg
+  image_zoom: 1.65
+  image_origin: "46% 0%"
+
+- name: Arman Meraj
+  role: Undergraduate Student
+  institution: UMass Amherst
+  image: arman-meraj-placeholder.svg

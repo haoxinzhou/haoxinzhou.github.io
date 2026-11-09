@@ -1,0 +1,41 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+nav: true
+nav_order: 5
+---
+
+<article class="lab-contact-page">
+  <header class="lab-contact-header">
+    <h1>Contact</h1>
+  </header>
+
+  <div class="lab-contact">
+    <p>Interested in joining the lab, collaborating, or learning about our research? Please reach out to <a href="mailto:{{ site.data.group.email }}">{{ site.data.group.email }}</a>, or visit us in Room {{ site.data.group.lab_room }} of the {{ site.data.group.building }} at UMass Amherst.</p>
+    <section aria-labelledby="contact-lab-heading">
+      <h2 id="contact-lab-heading">Lab Address</h2>
+      <address>
+        Room {{ site.data.group.lab_room }}, {{ site.data.group.building }}<br>
+        {{ site.data.group.street_address }}<br>
+        {{ site.data.group.postal_address }}<br>
+        United States
+      </address>
+    </section>
+  </div>
+
+  <section class="lab-map" aria-label="Map to the Physical Sciences Building">
+    <div class="lab-map-frame">
+      <iframe
+        src="https://www.google.com/maps?q={{ site.data.group.map_query | url_encode }}&amp;z=16&amp;output=embed"
+        title="Google Maps: Physical Sciences Building, UMass Amherst"
+        width="100%"
+        height="380"
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <p><a href="https://www.google.com/maps/search/?api=1&amp;query={{ site.data.group.map_query | url_encode }}">Open in Google Maps</a></p>
+  </section>
+</article>

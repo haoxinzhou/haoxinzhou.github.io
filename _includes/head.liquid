@@ -1,6 +1,11 @@
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
+{% if page.url == '/contact/' %}
+  <link rel="preconnect" href="https://www.google.com">
+  <link rel="preconnect" href="https://maps.gstatic.com" crossorigin>
+{% endif %}
+
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
 <link
@@ -24,12 +29,7 @@
 <!-- Fonts & Icons -->
 <link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
 <link defer rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
-<link
-  defer
-  rel="stylesheet"
-  type="text/css"
-  href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
->
+<link rel="preload" href="{{ '/assets/fonts/roboto/roboto-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin="anonymous">
 
 <!-- Code Syntax Highlighting -->
 <link

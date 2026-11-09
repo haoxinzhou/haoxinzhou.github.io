@@ -5,14 +5,18 @@
     "email": "haoxinzhou@umass.edu",
     "homepage": "https://haoxinzhou.github.io/",
     "location": {
-      "address": "LL101 Campbell Hall, University Dr",
-      "postalCode": "CA 94720",
-      "city": "Berkeley",
+      "city": "Amherst",
       "countryCode": "US",
-      "region": "California"
+      "region": "Massachusetts"
     }
   },
   "work": [
+    {
+      "name": "University of Massachusetts Amherst",
+      "position": "Assistant Professor of Physics",
+      "startDate": "2026",
+      "endDate": "present"
+    },
     {
       "name": "California Institute of Technology",
       "position": "IQIM Postdoctoral Fellow",
@@ -23,7 +27,7 @@
       "name": "University of California, Berkeley and Lawrence Berkeley National Laboratory",
       "position": "Postdoctoral Researcher",
       "startDate": "Feb 2023",
-      "endDate": "present"
+      "endDate": "2026"
     }
   ],
   "education": [

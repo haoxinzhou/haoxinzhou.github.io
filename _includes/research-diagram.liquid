@@ -1,0 +1,7 @@
+{% assign aa_base = include.path | replace: '.svg', '-aa-v2-' %}
+<picture class="lab-research-picture">
+  <source media="(max-resolution: 1.1dppx)" srcset="{{ aa_base | append: '1x.svg' | relative_url }}">
+  <source media="(max-resolution: 1.35dppx)" srcset="{{ aa_base | append: '1.25x.svg' | relative_url }}">
+  <source media="(max-resolution: 1.6dppx)" srcset="{{ aa_base | append: '1.5x.svg' | relative_url }}">
+  <img src="{{ include.path | relative_url }}" alt="{{ include.alt | escape }}" loading="{{ include.loading | default: 'eager' }}">
+</picture>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1501" height="1000" viewBox="0 0 1501 1000" fill="none" shape-rendering="geometricPrecision" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="sensing-title sensing-desc">
+  <title id="sensing-title">Circuit QED quantum sensing</title>
+  <desc id="sensing-desc">A Josephson circuit and opposing wavefronts couple to a triangular lattice with eight horizontal and two tilted dimer-shaped highlights. The original lattice connectivity and relative dimer arrangement are retained.</desc>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --ink:#231f20; --accent:#9e005d;
+      --dimer-edge:#91c1e2; --dimer-mid:#5ba3d4; --dimer-core:#2d89c8;
+    }
+    @media (prefers-color-scheme:dark) {
+      :root {
+        --ink:#d7d2d2; --accent:#ce70a7;
+        --dimer-edge:#91c1e2; --dimer-mid:#5ba3d4; --dimer-core:#2d89c8;
+      }
+    }
+    .wire { stroke:var(--ink); stroke-width:10; stroke-linecap:round; stroke-linejoin:round; }
+    .bond { stroke:var(--ink); stroke-width:8; stroke-linecap:round; stroke-linejoin:round; }
+    .wave { stroke:var(--accent); stroke-linecap:round; }
+    .dimer { fill:url(#sensing-dimer-gradient); }
+  
+    /* Scale-aware stroke floors: retain native weights when enlarged. */
+    .wire > path { vector-effect:non-scaling-stroke; stroke-width:max(.9px, 0.666222518vw); }
+    .wire > path[stroke-width="19"] { vector-effect:non-scaling-stroke; stroke-width:max(.9px, 1.265822785vw); }
+    .bond > path { vector-effect:non-scaling-stroke; stroke-width:max(.85px, 0.532978015vw); }
+    .wave > path[stroke-width="3"] { vector-effect:non-scaling-stroke; stroke-width:max(.8px, 0.199866755vw); }
+    .wave > path[stroke-width="5"] { vector-effect:non-scaling-stroke; stroke-width:max(.8px, 0.333111259vw); }
+    .wave > path[stroke-width="7"] { vector-effect:non-scaling-stroke; stroke-width:max(.8px, 0.466355763vw); }
+    .wave > path[stroke-width="9"] { vector-effect:non-scaling-stroke; stroke-width:max(.8px, 0.599600266vw); }
+    .wave > path[stroke-width="10"] { vector-effect:non-scaling-stroke; stroke-width:max(.8px, 0.666222518vw); }
+  </style>
+  <defs>
+    <linearGradient id="sensing-dimer-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="var(--dimer-edge)"/>
+      <stop offset=".24" stop-color="var(--dimer-mid)"/>
+      <stop offset=".5" stop-color="var(--dimer-core)"/>
+      <stop offset=".76" stop-color="var(--dimer-mid)"/>
+      <stop offset="1" stop-color="var(--dimer-edge)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- The original circuit geometry, with smoother, consistent wire strokes. -->
+  <g class="wire">
+    <path d="M159 495V349c0-18 14-32 32-32h229c18 0 32 14 32 32v138"/>
+    <path d="M159 517v147c0 18 14 32 32 32h229c18 0 32-14 32-32V525"/>
+    <path d="M110 457l98 99m0-99-98 99" stroke-width="19"/>
+    <path d="M386 487h131m-131 38h131" stroke-width="19"/>
+  </g>
+
+  <!-- The two opposing five-front wave groups retain their original positions. -->
+  <g class="wave">
+    <path d="M602 439q7 8 0 16" stroke-width="3"/>
+    <path d="M631 434q13 13 0 26" stroke-width="5"/>
+    <path d="M660 423q21 22 0 43" stroke-width="7"/>
+    <path d="M687 409q31 33 6 65" stroke-width="9"/>
+    <path d="M713 390q44 47 3 96" stroke-width="10"/>
+    <path d="M723 568q-7 7 0 14" stroke-width="3"/>
+    <path d="M694 563q-13 13 0 26" stroke-width="5"/>
+    <path d="M666 555q-21 22 0 44" stroke-width="7"/>
+    <path d="M635 550q-30 32 1 66" stroke-width="9"/>
+    <path d="M605 536q-40 47 8 95" stroke-width="10"/>
+  </g>
+
+  <!-- Four staggered rows of five vertices: the original triangular connectivity. -->
+  <g class="bond">
+    <path d="M854 366h500M792 474h500M854 582h500M917 690h500"/>
+    <path d="M854 366l-62 108 62 108 63 108M979 366l-62 108 62 108 63 108M1104 366l-62 108 62 108 63 108M1229 366l-62 108 62 108 63 108M1354 366l-62 108 62 108 63 108"/>
+    <path d="M854 366l63 108-63 108M979 366l63 108-63 108-62 108M1104 366l63 108-63 108-62 108M1229 366l63 108-63 108-62 108M1354 582l-62 108"/>
+  </g>
+
+  <!-- Eight horizontal and two tilted dimers, retaining the original arrangement. -->
+  <g class="dimer">
+    <ellipse cx="919" cy="366" rx="85" ry="35"/>
+    <ellipse cx="1294" cy="366" rx="85" ry="35"/>
+    <ellipse cx="855" cy="476" rx="85" ry="35"/>
+    <ellipse cx="1227" cy="476" rx="85" ry="35"/>
+    <ellipse cx="920" cy="581" rx="85" ry="35"/>
+    <ellipse cx="1294" cy="581" rx="85" ry="35"/>
+    <ellipse cx="980" cy="691" rx="85" ry="35"/>
+    <ellipse cx="1353" cy="686" rx="85" ry="35"/>
+    <ellipse rx="85" ry="31" transform="translate(1073 421) rotate(-65)"/>
+    <ellipse rx="85" ry="31" transform="translate(1133 632) rotate(58)"/>
+  </g>
+</svg>

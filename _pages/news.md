@@ -1,7 +1,8 @@
 ---
 layout: page
-title: news
+title: News
 permalink: /news/
+description: Updates from the Zhou Quantum Lab.
 ---
 
-{% include news.liquid %}
+For research opportunities and information about joining the lab, visit our [opportunities page]({{ '/opportunities/' | relative_url }}).
