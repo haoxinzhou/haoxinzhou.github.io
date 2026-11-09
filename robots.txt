@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://haoxinzhou.github.io/sitemap.xml
+Sitemap: https://zhouquantumlab.com/sitemap.xml

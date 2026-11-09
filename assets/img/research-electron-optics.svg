@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500" fill="none" shape-rendering="geometricPrecision" stroke-linecap="round" stroke-linejoin="round" role="img" aria-labelledby="eqo-title eqo-desc">
+  <title id="eqo-title">Electron quantum optics</title>
+  <desc id="eqo-desc">Single-electron wave packets propagate from a constricted source through a serpentine electronic channel to a detector. Curved arrows indicate coherent exchange with three nearby two-level quantum systems. A conceptual schematic, not a specific device design.</desc>
+  <style>
+    :root { color-scheme:light dark; --ink:#231f20; --blue:#69c8f0; --level:#2b3990; --channel:#d2e3f2; --gate:#af9c89; }
+    @media (prefers-color-scheme:dark) {
+      :root { --ink:#e3dfdf; --level:#9ba5dd; }
+    }
+    .eqo-line { stroke-linecap:round; stroke-linejoin:round; }
+    .eqo-flow { stroke:var(--ink); stroke-width:3; marker-end:url(#eqo-flow-arrow); }
+    .eqo-exchange { stroke:var(--ink); stroke-width:3; marker-end:url(#eqo-exchange-arrow); }
+    .eqo-level { stroke:var(--level); stroke-width:4.5; stroke-linecap:round; }
+    .eqo-packet { fill:var(--blue); stroke:var(--ink); stroke-width:3.2; stroke-linecap:round; stroke-linejoin:round; }
+  
+    /* Scale-aware stroke floors: retain native weights when enlarged. */
+    #eqo-wave-packet { vector-effect:non-scaling-stroke; stroke-width:max(.9px, 0.421052632vw); }
+    .eqo-flow > path, .eqo-exchange > path { vector-effect:non-scaling-stroke; stroke-width:max(.9px, 0.394736842vw); }
+    .eqo-level { vector-effect:non-scaling-stroke; stroke-width:max(1px, 0.592105263vw); }
+    svg > g[stroke-width="3.2"] > path { vector-effect:non-scaling-stroke; stroke-width:max(.9px, 0.421052632vw); }
+  </style>
+  <defs>
+    <marker id="eqo-flow-arrow" viewBox="0 0 8 8" refX="6.5" refY="4" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="m1 1 6 3-6 3" fill="none" stroke="var(--ink)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <marker id="eqo-exchange-arrow" viewBox="0 0 8 8" refX="6.5" refY="4" markerWidth="4" markerHeight="4" orient="auto"><path d="m1 1 6 3-6 3" fill="none" stroke="var(--ink)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <path id="eqo-wave-packet" d="M-19 0C-13 0-11-33 0-33S13 0 19 0"/>
+    <g id="eqo-quantum-system">
+      <path class="eqo-level" d="M-20 0H20M-20 13H20"/>
+      <g class="eqo-line eqo-exchange">
+        <path d="M-7-48C-21-37-21-24-9-15"/>
+        <path d="M7-15C21-26 21-39 9-48"/>
+      </g>
+    </g>
+  </defs>
+
+  <!-- A single continuous electronic channel, with clear propagation order. -->
+  <path d="M119 110H575A70 70 0 0 1 575 250H185A70 70 0 0 0 185 390H649" stroke="var(--channel)" stroke-width="32"/>
+
+  <!-- Source gates form a narrow injection point without enclosing the image. -->
+  <g class="eqo-line" stroke="var(--ink)" stroke-width="3.2">
+    <path d="M80 75H114C108 91 105 103 97 103S86 91 80 75Z" fill="var(--gate)"/>
+    <path d="M80 145H114C108 129 105 117 97 117S86 129 80 145Z" fill="var(--gate)"/>
+    <path d="M101 110H119"/>
+  </g>
+
+  <g class="eqo-packet">
+    <use href="#eqo-wave-packet" transform="translate(237 110)"/>
+    <use href="#eqo-wave-packet" transform="translate(492 110)"/>
+    <use href="#eqo-wave-packet" transform="translate(492 250)"/>
+    <use href="#eqo-wave-packet" transform="translate(306 250)"/>
+    <use href="#eqo-wave-packet" transform="translate(453 390)"/>
+  </g>
+  <g class="eqo-line eqo-flow">
+    <path d="M274 110H320"/>
+    <path d="M529 110H565"/>
+    <path d="M453 250H411"/>
+    <path d="M266 250H224"/>
+    <path d="M490 390H536"/>
+  </g>
+
+  <!-- Paired energy levels and counter-rotating exchange arrows. -->
+  <use href="#eqo-quantum-system" transform="translate(492 177)"/>
+  <use href="#eqo-quantum-system" transform="translate(492 317)"/>
+  <use href="#eqo-quantum-system" transform="translate(306 317)"/>
+  <g class="eqo-line eqo-exchange" transform="translate(492 385)">
+    <path d="M-7-48C-21-37-21-24-9-15"/>
+    <path d="M7-15C21-26 21-39 9-48"/>
+  </g>
+
+  <!-- Output detector. -->
+  <g class="eqo-line" stroke="var(--ink)" stroke-width="3.2">
+    <path d="M649 390H667"/>
+    <path d="m668 370 34 20-34 20Z"/>
+  </g>
+</svg>
