@@ -1,0 +1,157 @@
+// A shared typographic and color finish. Layout and responsive rules live in lab.
+:root {
+  --global-bg-color: #fff;
+  --global-text-color: #2b2929;
+  --global-text-color-light: #686260;
+  --global-theme-color: #881c1c;
+  --global-hover-color: #6f1515;
+  --global-divider-color: rgba(43, 41, 41, 0.14);
+  --global-card-bg-color: #fff;
+  --lab-accent: #881c1c;
+  --lab-muted: #686260;
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #1e1d1e;
+  --global-text-color: #e8e4e1;
+  --global-text-color-light: #bab3ae;
+  --global-theme-color: #d99898;
+  --global-hover-color: #e9b2b0;
+  --global-divider-color: rgba(232, 228, 225, 0.18);
+  --global-card-bg-color: #1e1d1e;
+  --lab-accent: #d99898;
+  --lab-muted: #bab3ae;
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.65;
+  font-kerning: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  color: var(--global-text-color);
+}
+
+.post-header .post-title,
+.lab-hero h1,
+.lab-contact-header h1 {
+  color: var(--global-text-color);
+  font-weight: 350;
+  letter-spacing: -0.025em;
+}
+
+.lab-section h2,
+.lab-contact-page h2 {
+  color: var(--lab-accent);
+}
+
+.lab-section h2,
+.lab-research-detail h2 {
+  font-weight: 380;
+  letter-spacing: -0.015em;
+}
+
+.post > article > h2 {
+  font-size: 1.45rem;
+  line-height: 1.4;
+}
+
+.post > article > h3 {
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
+#navbar .navbar-brand {
+  font-weight: 550;
+  letter-spacing: -0.025em;
+}
+
+// Keep the fixed header inside its existing body offset.
+#navbar {
+  line-height: 1.5;
+}
+
+// Identical weights keep the navigation width steady on every page.
+#navbar .nav-link,
+#navbar .nav-item.active > .nav-link {
+  font-weight: 400;
+}
+
+.lab-eyebrow {
+  font-weight: 500;
+  letter-spacing: 0.075em;
+}
+
+.lab-person h2 {
+  font-weight: 400;
+  letter-spacing: -0.015em;
+}
+
+.lab-affiliation,
+.lab-intro,
+.post-description {
+  color: var(--lab-muted);
+}
+
+.lab-contact-page {
+  font-family: inherit;
+}
+
+.lab-contact-page h2 {
+  font-weight: 450;
+}
+
+.lab-contact-header,
+.lab-contact-page .lab-map {
+  border-width: 1px;
+}
+
+a {
+  text-underline-offset: 0.16em;
+  text-decoration-thickness: 1px;
+}
+
+// Paper titles and member names stay the same ink color as their neighbors.
+.publications .title a,
+.publications .title a:hover,
+.lab-person h2 a {
+  color: inherit;
+}
+
+.publications ol.bibliography li .title {
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.publications h2.bibliography {
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+}
+
+.cv .card {
+  box-shadow: none;
+}
+
+.cv .card-title {
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.cv strong,
+.cv b {
+  font-weight: 500;
+}
+
+footer.sticky-bottom .container {
+  color: var(--lab-muted);
+}

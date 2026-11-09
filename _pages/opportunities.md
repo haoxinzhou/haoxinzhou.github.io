@@ -2,35 +2,32 @@
 layout: page
 permalink: /opportunities/
 title: Opportunities
-# description: Materials for courses you taught. Replace this text with your description.
+description: Research opportunities in the Zhou Quantum Lab at UMass Amherst.
 nav: true
-nav_order: 7
+nav_order: 4
 ---
 
-We are actively recruiting Ph.D. students (starting Fall 2026) and Postdoctoral Researchers to join my group at UMass Amherst.
+We are actively recruiting **postdoctoral researchers, PhD students and undergraduate studens** to join our group at UMass Amherst.
 
----
+### Postdocs
 
-### Graduate Students
+Interested candidates with experience in experimental quantum sciences and condensed matter physics should contact me at [{{ site.data.group.email }}](mailto:{{ site.data.group.email }}) with:
 
-Prospective graduate students should apply to the [UMass Amherst Physics Ph.D. Program](https://www.umass.edu/physics/graduate/prospective-students-letter).
+- CV
+- A short summary of your research background and interests
 
-If you are interested in joining the group, feel free to contact me at haoxinzhou@umass.edu with:
+### Graduate students
 
-- your CV, and  
-- a brief introduction to your research experience and interests.
+Prospective graduate students should apply through the [UMass Amherst Physics Ph.D. Program](https://www.umass.edu/physics/graduate/prospective-students-letter).
+If you are interested in joining the group, feel free to contact Haoxin at [{{ site.data.group.email }}](mailto:{{ site.data.group.email }}) with:
 
----
+- CV
+- A brief introduction to your research experience and interests
 
-### Postdoctoral Researchers
+### Undergradaute students
 
-Interested candidates should contact me at haoxinzhou@umass.edu with:
+If you are an undergradaute student currently enrolled in UMass Amerst or nearby institutions, and are interested in getting involved in our reserach, please feel free to contact Haoxin at [{{ site.data.group.email }}](mailto:{{ site.data.group.email }}) with:
 
-- your CV, and  
-- a short summary of your research background and interests.
-
----
-
-
-
-
+- CV
+- Transcript (if available)
+- A brief introduction to your research interests

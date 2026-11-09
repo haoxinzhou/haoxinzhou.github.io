@@ -419,8 +419,8 @@ ul.task-list input[type="checkbox"] {
 
     a {
       img {
-        width: 2.0rem;
-        height: 2.0rem;
+        width: 2rem;
+        height: 2rem;
         margin-bottom: 1rem;
       }
 
@@ -945,7 +945,10 @@ html.transition,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
-  transition: all 750ms !important;
+  transition:
+    background-color 250ms ease,
+    color 250ms ease,
+    border-color 250ms ease !important;
   transition-delay: 0 !important;
 }
 

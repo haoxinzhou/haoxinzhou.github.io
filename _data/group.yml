@@ -1,0 +1,17 @@
+department: Department of Physics
+university: University of Massachusetts Amherst
+location: Amherst, Massachusetts
+building: Physical Sciences Building
+lab_room: "034"
+street_address: 690 North Pleasant Street
+postal_address: Amherst, MA 01003-9303
+map_query: Physical Sciences Building, University of Massachusetts Amherst, 690 North Pleasant Street, Amherst, MA
+email: haoxinzhou@umass.edu
+research_summary: >-
+  We are an experimental research group studying quantum materials and devices,
+  with interests spanning condensed matter physics and quantum information
+  science. Our research explores how electronic interactions shape the properties
+  of two-dimensional materials and how qubits interact with complex material
+  systems. This involves designing and fabricating superconducting quantum
+  circuits and two-dimensional van der Waals devices, and studying their
+  properties and interactions using low-noise DC and RF measurements.

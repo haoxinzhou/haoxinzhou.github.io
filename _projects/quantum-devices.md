@@ -1,33 +1,24 @@
 ---
 layout: page
-title: Quantum Devices
-description: with background image
-img: assets/img/12.jpg
+title: Materials-Enabled Quantum Device
+description: Designing quantum devices whose coherence and functionality emerge from the properties of the material itself.
+img: assets/img/research-devices.svg
+image_alt: A Josephson device array, electronic bands, and three quantum modes coupled through a layered material
 importance: 2
 category: work
-related_publications: true
 ---
 
-We are actively recruiting **Ph.D. students** (starting Fall 2026) and **Postdoctoral Researchers** to join my group at UMass Amherst.
+<figure class="lab-project-figure">
+  {% include research-diagram.liquid path=page.img alt=page.image_alt %}
+</figure>
 
----
+Quantum materials provide new opportunities for building next-generation quantum hardware. We design devices where material properties directly enhance coherence and functionality.
 
-### Graduate Students
+Key directions include:
 
-Prospective graduate students should apply to the [UMass Amherst Physics Ph.D. Program](https://www.umass.edu/physics/graduate/prospective-students-letter).
+- symmetry- and topology-protected Josephson devices; and
+- heterostructure-based quantum transducers.
 
-If you are interested in joining the group, feel free to contact me at **haoxinzhou@umass.edu** with:
+These devices aim to achieve quantum functionalities that arise from the physics of the material itself, enabling scalable architectures for quantum information science.
 
-- your **CV**, and  
-- a brief introduction to your research experience and interests.
-
----
-
-### Postdoctoral Researchers
-
-Interested candidates should contact me at **haoxinzhou@umass.edu** with:
-
-- your **CV**, and  
-- a short summary of your research background and interests.
-
----
+[Explore all research directions]({{ '/research/' | relative_url }})

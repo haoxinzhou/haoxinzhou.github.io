@@ -1,32 +1,25 @@
 ---
 layout: page
 title: Electron Quantum Optics
-img: assets/img/12.jpg
+description: Developing coherent electronic platforms that connect mobile electrons, quantum materials, and superconducting circuits.
+img: assets/img/research-electron-optics.svg
+image_alt: Electron wave packets propagating along a channel and coupling to nearby two-level systems
 importance: 3
 category: work
-related_publications: true
 ---
 
-We are actively recruiting **Ph.D. students** (starting Fall 2026) and **Postdoctoral Researchers** to join my group at UMass Amherst.
+<figure class="lab-project-figure">
+  {% include research-diagram.liquid path=page.img alt=page.image_alt %}
+</figure>
 
----
+We are developing a platform in which single electrons, rather than photons, serve as the flying quanta that mediate coherent interactions. Using on-demand electron sources, engineered one-dimensional waveguides, and quantum Hall edge channels, we aim to build the electronic analog of waveguide QED.
 
-### Graduate Students
+This platform enables:
 
-Prospective graduate students should apply to the [UMass Amherst Physics Ph.D. Program](https://www.umass.edu/physics/graduate/prospective-students-letter).
+- coherent electron–matter interactions with tunable coupling;
+- single-electron interferometry and quantum-optical control; and
+- hybrid networks linking electrons, spins, and superconducting qubits.
 
-If you are interested in joining the group, feel free to contact me at **haoxinzhou@umass.edu** with:
+Electron quantum optics opens a path toward quantum simulation and entanglement generation using mobile, strongly interacting electronic excitations.
 
-- your **CV**, and  
-- a brief introduction to your research experience and interests.
-
----
-
-### Postdoctoral Researchers
-
-Interested candidates should contact me at **haoxinzhou@umass.edu** with:
-
-- your **CV**, and  
-- a short summary of your research background and interests.
-
----
+[Explore all research directions]({{ '/research/' | relative_url }})
