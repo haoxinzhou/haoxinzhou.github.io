@@ -28,6 +28,4 @@ If you are interested in joining the group, feel free to contact Haoxin at [{{ s
 
 If you are an undergradaute student currently enrolled in UMass Amerst or nearby institutions, and are interested in getting involved in our reserach, please feel free to contact Haoxin at [{{ site.data.group.email }}](mailto:{{ site.data.group.email }}) with:
 
-- CV
-- Transcript (if available)
 - A brief introduction to your research interests
