@@ -14,7 +14,7 @@ We are actively recruiting **postdoctoral researchers, PhD students and undergra
 Interested candidates with experience in experimental quantum sciences and condensed matter physics should contact me at [{{ site.data.group.email }}](mailto:{{ site.data.group.email }}) with:
 
 - CV
-- A short summary of your research background and interests
+- A short summary of your research experience and interests
 
 ### Graduate students
 
